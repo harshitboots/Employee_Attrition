@@ -25,6 +25,7 @@ Employee attrition costs organisations thousands of pounds per hire in recruitme
 ## 🗺️ Project Architecture
 
 ![Project Architecture](architecture.png)
+
 ---
 
 ## 🚀 How to Run Locally
