@@ -66,22 +66,53 @@ Employee attrition costs organisations thousands of pounds per hire in recruitme
 ## 📁 Project Structure
 
 ```
+---
+
+## Testing
+
+### Install Dependencies
+```
+bash
+pip install -r requirements-dev.txt
+pytest tests/ -v
+pytest tests/ --cov=. --cov-report=html
+
+# Test Files
+tests/test_features.py — Unit tests for all feature engineering functions
+tests/test_prediction.py — Tests for the prediction pipeline
+tests/test_integration.py — End-to-end integration tests
+
+
+
+
 Employee_Attrition/
 │
-├── EDA(Employee).ipynb                  ← Step 1: Exploratory analysis
-├── cleaning_features(Employee).ipynb    ← Step 2: Cleaning + feature engineering
-├── modeling(Employee).ipynb             ← Step 3: Model training + evaluation
-├── app.py                               ← Streamlit web app
-├── best_model.pkl                       ← Saved Random Forest model
-├── scaler.pkl                           ← Saved StandardScaler
-├── feature_columns.pkl                  ← Saved feature column names
-├── train.csv                            ← Training data
-├── test.csv                             ← Test data
-├── Architecture.png                     ← Project architecture diagram
-├── requirements.txt                     ← Python dependencies
-└── README.md
+├── features.py                       ← NEW: Reusable feature engineering module
+├── app.py                            ← UPDATED: Bug fixes, validation, error handling
+├── best_model.pkl                    ← Model artifact
+├── scaler.pkl                        ← Scaler artifact
+├── feature_columns.pkl               ← Feature columns artifact
+│
+├── EDA(Employee).ipynb               ← Step 1: Exploratory analysis
+├── cleaning_features(Employee).ipynb ← Step 2: Cleaning + feature engineering
+├── modeling(Employee).ipynb          ← Step 3: Model training + evaluation
+│
+├── tests/                            ← NEW: Test suite
+│   ├── __init__.py
+│   ├── test_features.py
+│   ├── test_prediction.py
+│   └── test_integration.py
+│
+├── train.csv                         ← Training data
+├── test.csv                          ← Test data
+├── Architecture.png                  ← Project architecture diagram
+│
+├── requirements.txt                  ← UPDATED: Pinned versions
+├── requirements-dev.txt              ← NEW: Dev dependencies
+├── .gitignore                        ← NEW: Exclude large files
+│
+└── README.md                         ← This file
 ```
----
 ## 🚀 How to Run Locally
 
 ```bash
