@@ -64,7 +64,7 @@ Employee attrition costs organisations thousands of pounds per hire in recruitme
 ---
 
 ## 📁 Project Structure
-
+'''
 Employee_Attrition/
 │
 ├── EDA(Employee).ipynb                  ← Step 1: Exploratory analysis
@@ -79,7 +79,7 @@ Employee_Attrition/
 ├── Architecture.png                     ← Project architecture diagram
 ├── requirements.txt                     ← Python dependencies
 └── README.md
-
+'''
 ---
 
 ## 🚀 How to Run Locally
