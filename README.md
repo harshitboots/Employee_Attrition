@@ -1,6 +1,6 @@
 # 🧠 Employee Attrition Prediction
 
-> Predicting which employees are at risk of leaving — helping HR teams intervene early and improve retention.
+> Predicting which employees are at risk of leaving...
 
 ---
 
