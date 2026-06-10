@@ -65,20 +65,22 @@ Employee attrition costs organisations thousands of pounds per hire in recruitme
 
 ## 📁 Project Structure
 
-| File | Description |
-|---|---|
-| `EDA(Employee).ipynb` | Step 1: Exploratory analysis |
-| `cleaning_features(Employee).ipynb` | Step 2: Cleaning + feature engineering |
-| `modeling(Employee).ipynb` | Step 3: Model training + evaluation |
-| `app.py` | Streamlit web app |
-| `best_model.pkl` | Saved Random Forest model |
-| `scaler.pkl` | Saved StandardScaler |
-| `feature_columns.pkl` | Saved feature column names |
-| `train.csv` | Training data |
-| `test.csv` | Test data |
-| `Architecture.png` | Project architecture diagram |
-| `requirements.txt` | Python dependencies |
----
+```
+Employee_Attrition/
+│
+├── EDA(Employee).ipynb                  ← Step 1: Exploratory analysis
+├── cleaning_features(Employee).ipynb    ← Step 2: Cleaning + feature engineering
+├── modeling(Employee).ipynb             ← Step 3: Model training + evaluation
+├── app.py                               ← Streamlit web app
+├── best_model.pkl                       ← Saved Random Forest model
+├── scaler.pkl                           ← Saved StandardScaler
+├── feature_columns.pkl                  ← Saved feature column names
+├── train.csv                            ← Training data
+├── test.csv                             ← Test data
+├── Architecture.png                     ← Project architecture diagram
+├── requirements.txt                     ← Python dependencies
+└── README.md
+```
 
 ## 🚀 How to Run Locally
 
