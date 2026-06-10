@@ -235,7 +235,7 @@ streamlit run app.py
 
 ## 🌐 Live App
 
-👉 [Click here to try the live app](https://deepthiprabha21-employee-attrition.streamlit.app)
+👉 [Click here to try the live app]([https://deepthiprabha21-employee-attrition.streamlit.app](https://employeeattrition-mgpdzmkc2m45ujateszmdv.streamlit.app/))
 
 ## 👩‍💻 Author
 
