@@ -28,112 +28,6 @@ Employee attrition costs organisations thousands of pounds per hire in recruitme
 
 ---
 
-## 🚀 How to Run Locally
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/employee-attrition-prediction.git
-cd employee-attrition-prediction
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the Streamlit app
-streamlit run app.py
-```
-
----
-
-## 📈 Key Findings
-
-- Employees who work **overtime** are significantly more likely to leave
-- **Low wellbeing score** (satisfaction + balance + recognition) is the strongest combined predictor
-- Employees with **high promotion deprivation** (long tenure, few promotions) show elevated attrition risk
-- **Income relative to tenure** matters more than raw salary alone
-- Attrition patterns differ significantly by **job role** and **job level**
-
----
-
-## ⚠️ What Would Break in Production
-
-- Model trained on synthetic data — real-world distributions may differ significantly
-- No retraining pipeline — model will drift over time as workforce changes
-- Attrition rate of 47.5% is unrealistically high for most real organisations
-- Missing features like team dynamics, manager quality, and market salary benchmarks
-- No fairness/bias audit across gender, age, or other protected attributes
-
----
-
-## 🛠️ Tech Stack
-
-- **Data:** Python, Pandas, NumPy
-- **ML:** Scikit-learn, Imbalanced-learn (SMOTE)
-- **Visualisation:** Matplotlib, Seaborn
-- **App:** Streamlit
-- **Deployment:** Streamlit Cloud
-
----
-
-## 👩‍💻 Author
-
-**Deepthi**
-MSc Data Science & Analytics — University of Hertfordshire
-
----
-
-## 🚀 How to Run Locally
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/employee-attrition-prediction.git
-cd employee-attrition-prediction
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the Streamlit app
-streamlit run app.py
-```
-
----
-
-## 📈 Key Findings
-
-- Employees who work **overtime** are significantly more likely to leave
-- **Low wellbeing score** (satisfaction + balance + recognition) is the strongest combined predictor
-- Employees with **high promotion deprivation** (long tenure, few promotions) show elevated attrition risk
-- **Income relative to tenure** matters more than raw salary alone
-- Attrition patterns differ significantly by **job role** and **job level**
-
----
-
-## ⚠️ What Would Break in Production
-
-- Model trained on synthetic data — real-world distributions may differ significantly
-- No retraining pipeline — model will drift over time as workforce changes
-- Attrition rate of 47.5% is unrealistically high for most real organisations
-- Missing features like team dynamics, manager quality, and market salary benchmarks
-- No fairness/bias audit across gender, age, or other protected attributes
-
----
-
-## 🛠️ Tech Stack
-
-- **Data:** Python, Pandas, NumPy
-- **ML:** Scikit-learn, Imbalanced-learn (SMOTE)
-- **Visualisation:** Matplotlib, Seaborn
-- **App:** Streamlit
-- **Deployment:** Streamlit Cloud
-
----
-
-## 👩‍💻 Author
-
-**Deepthi**
-MSc Data Science & Analytics — University of Hertfordshire
-
----
-
 ## 🔍 What I Did
 
 ### 1. Exploratory Data Analysis (`EDA(Employee).ipynb`)
@@ -170,7 +64,8 @@ MSc Data Science & Analytics — University of Hertfordshire
 ---
 
 ## 📁 Project Structure
-employee-attrition-prediction/
+
+Employee_Attrition/
 │
 ├── EDA(Employee).ipynb                  ← Step 1: Exploratory analysis
 ├── cleaning_features(Employee).ipynb    ← Step 2: Cleaning + feature engineering
@@ -181,7 +76,7 @@ employee-attrition-prediction/
 ├── feature_columns.pkl                  ← Saved feature column names
 ├── train.csv                            ← Training data
 ├── test.csv                             ← Test data
-├── architecture.png                     ← Project architecture diagram
+├── Architecture.png                     ← Project architecture diagram
 ├── requirements.txt                     ← Python dependencies
 └── README.md
 
@@ -191,8 +86,8 @@ employee-attrition-prediction/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/employee-attrition-prediction.git
-cd employee-attrition-prediction
+git clone https://github.com/Deepthiprabha21/Employee_Attrition.git
+cd Employee_Attrition
 
 # 2. Install dependencies
 pip install -r requirements.txt
