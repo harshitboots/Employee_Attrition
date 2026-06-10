@@ -6,9 +6,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import os
 
-os.chdir(r"C:\Users\deept\OneDrive\Desktop\Employee Attrition Project")
 
 # ── Load saved model artefacts ───────────────────────────────
 with open("best_model.pkl", "rb") as f:
